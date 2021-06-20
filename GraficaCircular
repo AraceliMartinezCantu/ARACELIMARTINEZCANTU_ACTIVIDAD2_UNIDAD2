@@ -1,0 +1,7 @@
+attach(FA)
+pie(FREC.RELATIVA PORCENTAJE)
+
+etiqueta=paste(FREC.RELATIVA PORCENTAJE, "%", sep=" ")
+
+pie(FREC.RELATIVA PORCENTAJE, labels=etiqueta, clockwise = TRUE, 
+    col = palette(), main="FA PORCENTAJE")
